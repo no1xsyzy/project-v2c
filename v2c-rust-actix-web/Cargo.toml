@@ -1,0 +1,15 @@
+[package]
+name = "v2c-rust-actix-web"
+version = "0.1.0"
+authors = ["inqb (inqb@protonmail.com)"]
+edition = "2018"
+
+[dependencies]
+base64 = "0.13.0"
+reqwest = "0.11.0"
+serde = "1.0"
+serde_json = "1.0"
+serde_yaml = "0.8"
+url = "1.7"
+actix-web = { version = "3.3", features = ["rustls"]}
+rustls = "0.19"
