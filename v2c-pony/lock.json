@@ -1,0 +1,8 @@
+{
+  "locks": [
+    {
+      "locator": "github.com/ponylang/http.git",
+      "revision": "main"
+    }
+  ]
+}

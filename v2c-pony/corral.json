@@ -1,0 +1,17 @@
+{
+  "packages": [],
+  "deps": [
+    {
+      "locator": "github.com/ponylang/http.git",
+      "version": ""
+    }
+  ],
+  "info": {
+    "description": "",
+    "homepage": "",
+    "license": "",
+    "documentation_url": "",
+    "version": "",
+    "name": "v2c-pony"
+  }
+}
