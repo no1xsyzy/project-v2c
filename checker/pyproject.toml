@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "reference"
+name = "checker"
 version = "0.1.0"
 description = ""
 authors = ["inqb <inqb@protonmail.com>"]
