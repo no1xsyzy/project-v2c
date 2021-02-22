@@ -5,3 +5,11 @@ all: $(SUBDIRS)
 
 $(SUBDIRS): 
 	$(MAKE) -C $@
+
+.PHONY: serve
+serve:
+	$(MAKE) -C checker serve
+
+.PHONY: check
+check:
+	$(MAKE) -C checker check
