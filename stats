@@ -1,0 +1,11 @@
+#!/bin/bash
+
+(
+find v2c-go-gin -name \*.go | xargs wc -l | tail -1 | awk '{print $1, "Go+gin"}'; 
+find v2c-rust-hyper -name \*.rs | xargs wc -l | tail -1 | awk '{print $1, "Rust+hyper+reqwest"}';
+find v2c-rust-actix-web -name \*.rs | xargs wc -l | tail -1 | awk '{print $1, "Rust+actix-web"}';
+find v2c-python-flask -name \*.py | xargs wc -l | tail -1 | awk '{print $1, "Python+Flask+Requests"}';
+find v2c-pony -name \*.pony | xargs wc -l | tail -1 | awk '{print $1, "Ponylang"}';
+) | sort -n | while read line; do
+  printf "%5d %s\n" $line
+done
